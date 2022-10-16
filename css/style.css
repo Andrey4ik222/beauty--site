@@ -3,8 +3,9 @@
   --color-secondary-bg: #fefefe;
   --color-black: #000000;
   --color-light-black: #333333;
-  --color-accent: #f13c6e;
+  --color-accent: #f03c6e;
   --color-border: #efefef;
+  --color-white: #ffffff;
 
   --line-height-lg: 1.43;
 
@@ -49,7 +50,6 @@ a {
 .navbar-secondary__list {
   list-style-type: none;
   margin: 0;
-  /* padding: 5px 0; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,4 +95,30 @@ a {
   display: block;
   padding: 5px;
   font-size: 1rem;
+}
+.hero {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  min-height: 604px;
+  padding: 172px 0 213px;
+  background-image: url(../img/hero-origin.min.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.hero__content {
+  max-width: 370px;
+}
+.hero__title {
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0 0 40px;
+}
+.hero__description {
+  line-height: var(--line-height-lg);
+  margin: 0 0 44px;
+}
+.btn--secondary {
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-white);
 }
