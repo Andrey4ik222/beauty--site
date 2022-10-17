@@ -123,6 +123,9 @@ a {
   background-color: var(--color-accent);
   border: 2px solid var(--color-white);
 }
+.offer {
+  padding-bottom: 120px;
+}
 .offer__title {
   font-weight: 700;
   font-size: 24px;
@@ -167,4 +170,65 @@ a {
   color: var(--color-white);
   min-width: 130px;
   min-height: 35px;
+}
+.sale {
+  padding-bottom: 60px;
+}
+.sale-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.sale__promotion {
+  color: var(--color-white);
+  background-color: var(--color-accent);
+  flex-grow: 1;
+  max-width: 540px;
+  background-image: url(../img/envelope.svg);
+  background-repeat: no-repeat;
+  background-position: 85% 46%;
+}
+.sale__shop {
+  background-image: url(../img/x36\ \ 8.svg);
+}
+.sale__title {
+  padding-top: 18px;
+  margin-left: 40px;
+  max-width: 250px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+.shop__description {
+  max-width: 160px;
+}
+.sale__description {
+  margin-left: 40px;
+  padding-bottom: 29px;
+  line-height: var(--line-height-lg);
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 250px;
+}
+.shop__description {
+  max-width: 160px;
+}
+.sale__email {
+  padding-left: 40px;
+  padding-bottom: 35px;
+}
+.btn--fourth {
+  background-color: var(--color-accent);
+  border: 2px solid var(--color-white);
+  border-radius: 30px;
+  min-width: 170px;
+}
+.sale__button {
+  padding-left: 40px;
+  padding-bottom: 35px;
+  background-color: var(--color-accent);
+  display: inline-block;
+}
+.sale__email-button {
+  background-color: var(--color-white);
+  min-width: 230px;
 }
