@@ -101,6 +101,7 @@ a {
   color: var(--color-white);
   min-height: 604px;
   padding: 172px 0 213px;
+  margin-bottom: 60px;
   background-image: url(../img/hero-origin.min.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,4 +122,49 @@ a {
 .btn--secondary {
   background-color: var(--color-accent);
   border: 2px solid var(--color-white);
+}
+.offer__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  padding-bottom: 20px;
+}
+.wrapper {
+  display: flex;
+  gap: 25px;
+}
+.offer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  background-color: var(--color-white);
+}
+.offer__image {
+  padding-top: 33px;
+  padding-bottom: 14px;
+}
+.offer__description {
+  max-width: 195px;
+  line-height: var(--line-height-lg);
+  text-align: center;
+  padding-bottom: 14px;
+}
+.offer__price {
+  max-width: 195px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding-bottom: 14px;
+}
+.offer__actions {
+  padding-bottom: 17px;
+}
+.btn--ternary {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  min-width: 130px;
+  min-height: 35px;
 }
