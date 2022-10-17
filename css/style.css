@@ -30,6 +30,18 @@ a {
   text-decoration: none;
   color: inherit;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .btn {
   border-radius: 40px;
   border: 2px solid var(--color-accent);
@@ -70,12 +82,14 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-.feedback {
+.feedback,
+.footer-feedback {
   display: flex;
   align-items: center;
   gap: 40px;
 }
-.feedback__phone {
+.feedback__phone,
+.footer-feedback__phone {
   font-size: 1rem;
   color: var(--color-black);
 }
@@ -221,7 +235,7 @@ a {
 .shop__description {
   max-width: 160px;
 }
-.sale__email {
+.form {
   padding-left: 40px;
   padding-bottom: 35px;
 }
@@ -237,7 +251,7 @@ a {
   background-color: var(--color-accent);
   display: inline-block;
 }
-.sale__email-button {
+.form-button {
   background-color: var(--color-white);
   min-width: 230px;
 }
@@ -296,4 +310,34 @@ a {
   color: var(--color-gray);
   font-size: 12px;
   line-height: 28px;
+}
+.footer-info {
+  background-color: var(--color-white);
+}
+.footer-info__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-info__icons {
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.icons__link {
+  padding-right: 16px;
+}
+.footer-root__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--color-gray);
+}
+.footer-root__description {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.footer-root__content {
+  font-size: 12px;
+  line-height: 14px;
 }
