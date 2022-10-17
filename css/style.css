@@ -123,10 +123,12 @@ a {
   background-color: var(--color-accent);
   border: 2px solid var(--color-white);
 }
-.offer {
+.offer,
+.view {
   padding-bottom: 120px;
 }
-.offer__title {
+.offer__title,
+.view__title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -136,24 +138,28 @@ a {
   display: flex;
   gap: 25px;
 }
-.offer__item {
+.offer__item,
+.view__item {
   display: flex;
   flex-direction: column;
   align-items: center;
   flex-grow: 1;
   background-color: var(--color-white);
 }
-.offer__image {
+.offer__image,
+.view__image {
   padding-top: 33px;
   padding-bottom: 14px;
 }
-.offer__description {
+.offer__description,
+.view__description {
   max-width: 195px;
   line-height: var(--line-height-lg);
   text-align: center;
   padding-bottom: 14px;
 }
-.offer__price {
+.offer__price,
+.view__price {
   max-width: 195px;
   font-weight: 500;
   font-size: 21px;
@@ -162,10 +168,12 @@ a {
   letter-spacing: 0.05em;
   padding-bottom: 14px;
 }
-.offer__actions {
+.offer__actions,
+.view__actions {
   padding-bottom: 17px;
 }
-.btn--ternary {
+.btn--ternary,
+.btn--fifth {
   background-color: var(--color-accent);
   color: var(--color-white);
   min-width: 130px;
