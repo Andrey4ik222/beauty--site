@@ -7,6 +7,7 @@
   --color-border: #efefef;
   --color-white: #ffffff;
   --color-gray: #828282;
+  --color-light-grey: #c4c4c4;
 
   --line-height-lg: 1.43;
 
@@ -238,6 +239,7 @@ a {
 .form {
   padding-left: 40px;
   padding-bottom: 35px;
+  height: 35px;
 }
 .btn--fourth {
   background-color: var(--color-accent);
@@ -255,16 +257,19 @@ a {
   background-color: var(--color-white);
   min-width: 230px;
 }
-.blocklogo {
+::placeholder {
+  color: var(--color-light-grey);
+}
+.block-logo {
   padding-bottom: 60px;
 }
-.blocklogo-wrapper {
+.block-logo-wrapper {
   display: flex;
   flex-wrap: wrap;
   background-color: var(--color-white);
   min-height: 360px;
 }
-.blocklogo__item {
+.block-logo__item {
   display: flex;
   justify-content: center;
   align-items: center;
